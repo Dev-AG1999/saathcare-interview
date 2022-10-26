@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { CardStyle } from "../styles";
+import { BackButtonStyle, CardStyle } from "../styles";
 import Footer from "./footer.component";
 import Form from "./form.component";
 import Profile from "./profile.component";
@@ -17,6 +17,8 @@ const Card = () => {
   };
   return (
     <div style={CardStyle}>
+      <div style={{display:"flex",justifyContent:"flex-start",width:"100%"}}> <button style={BackButtonStyle}>◀ Back</button></div>
+
       <Profile
         avatar={avatar}
         heading="Andrew@polka.io"

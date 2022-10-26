@@ -27,8 +27,8 @@ const Footer = () => {
           }}
         >
           This site is protected by reCAPTCHA and the Google{" "}
-          <strong>Privacy Policy</strong> and
-          <strong>Terms of Service</strong> apply.
+          <strong style={{textDecoration:"underline"}}>Privacy Policy</strong> and
+          <strong style={{textDecoration:"underline"}}>Terms of Service</strong> apply.
         </p>
       </div>
     </div>

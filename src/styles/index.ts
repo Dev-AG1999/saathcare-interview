@@ -22,8 +22,7 @@ export const CardStyle = {
   alignItems: "center",
   justifyContent: "space-evenly",
   flexDirection: "column" as "column",
-  paddingTop:"50px" 
-
+  paddingTop:"50px",
 };
 
 export const ProfileStyle = {
@@ -47,6 +46,21 @@ export const ButtonStyle = {
   borderWidth: "1px",
   borderColor: "#6877CA",
   borderRadius: "50px",
+  cursor:"pointer"
+};
+
+export const BackButtonStyle = {
+  fontSize: "15px",
+  display: "flex",
+  width:"100%", 
+  fontWeight: "bold",
+  border:"none",
+  background:"transparent",
+  margin:"0 10px",
+  color:"#9b9999",
+  marginTop:"-20px",
+  cursor:"pointer"
+ 
 };
 
 export const InputStyle = {
